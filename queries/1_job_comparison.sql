@@ -22,21 +22,19 @@ GROUP BY
 
 -- skill demand for roles
 -- data engineer role
-WITH remote_jobs AS (
+WITH data_jobs AS (
     SELECT job_id
     FROM job_postings_fact
-    WHERE job_work_from_home = true 
-        AND job_title_short = 'Data Engineer'
+    WHERE job_title_short = 'Data Engineer'
 )
 
-SELECT 
-    sjd.skill_id,
-    COUNT(rj.job_id) AS job_count,
-    sd.skills AS skill_name
+SELECT
+    sd.skills AS skill_name,
+    COUNT(dj.job_id) AS job_count
 FROM 
     skills_job_dim AS sjd
 JOIN 
-    remote_jobs AS rj ON rj.job_id = sjd.job_id
+    data_jobs AS dj ON dj.job_id = sjd.job_id
 LEFT JOIN 
     skills_dim AS sd ON sd.skill_id = sjd.skill_id
 GROUP BY 
@@ -46,21 +44,19 @@ ORDER BY
 LIMIT 15;
 
 -- data scientist role
-WITH remote_jobs AS (
+WITH data_jobs AS (
     SELECT job_id
     FROM job_postings_fact
-    WHERE job_work_from_home = true 
-        AND job_title_short = 'Data Scientist'
+    WHERE job_title_short = 'Data Scientist'
 )
 
-SELECT 
-    sjd.skill_id,
-    COUNT(rj.job_id) AS job_count,
-    sd.skills AS skill_name
+SELECT
+    sd.skills AS skill_name,
+    COUNT(dj.job_id) AS job_count
 FROM 
     skills_job_dim AS sjd
 JOIN 
-    remote_jobs AS rj ON rj.job_id = sjd.job_id
+    data_jobs AS dj ON dj.job_id = sjd.job_id
 LEFT JOIN 
     skills_dim AS sd ON sd.skill_id = sjd.skill_id
 GROUP BY 
@@ -70,25 +66,21 @@ ORDER BY
 LIMIT 15;
 
 -- data analyst role
-WITH remote_jobs AS (
+WITH data_jobs AS (
     SELECT job_id
     FROM job_postings_fact
-    WHERE job_work_from_home = true 
-        AND job_title_short = 'Data Analyst'
+    WHERE job_title_short = 'Data Analyst'
 )
 
 SELECT
-    sjd.skill_id,
-    COUNT(rj.job_id) AS job_count,
-    sd.skills AS skill_name
+    sd.skills AS skill_name,
+    COUNT(dj.job_id) AS job_count
 FROM 
     skills_job_dim AS sjd
 JOIN 
-    remote_jobs AS rj ON rj.job_id = sjd.job_id
+    data_jobs AS dj ON dj.job_id = sjd.job_id
 LEFT JOIN 
     skills_dim AS sd ON sd.skill_id = sjd.skill_id
-WHERE
-    sjd.skill_id <> 186
 GROUP BY 
     sjd.skill_id, sd.skills
 ORDER BY 

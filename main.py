@@ -1,7 +1,7 @@
 import psycopg2
 import pandas as pd
 
-# Read SQL file and split queries
+# read SQL file and split queries
 def read_sql_file(file_path):
     with open(file_path, 'r') as file:
         sql_queries = file.read().split(';')
@@ -9,7 +9,7 @@ def read_sql_file(file_path):
     sql_queries = [query.strip() for query in sql_queries if query.strip()]
     return sql_queries
 
-# Connect to PostgreSQL database
+# connect to PostgreSQL database
 def connect_to_database():
     try:
         connection = psycopg2.connect(
@@ -24,7 +24,7 @@ def connect_to_database():
         print("Error while connecting to PostgreSQL", error)
         return None
 
-# Execute queries and return results as Pandas DataFrames
+# execute queries and return results as Pandas DataFrames
 def execute_queries(connection, queries):
     dataframes = []
     cursor = connection.cursor()
