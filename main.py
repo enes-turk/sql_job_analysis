@@ -1,6 +1,13 @@
 import psycopg2
 import pandas as pd
+import gdown
 
+# import necessary csv files from google drive link
+def import_csv_files(file_link):
+    if not isinstance(file_link, str):
+        raise TypeError('File link must be a string')    
+    gdown.download_folder(file_link)
+    
 # read SQL file and split queries
 def read_sql_file(file_path):
     with open(file_path, 'r') as file:

@@ -52,7 +52,7 @@ HAVING
     COUNT(dj.job_id) > 100
 ORDER BY 
     salary DESC
-LIMIT 15;
+LIMIT 10;
 
 -- top skill demand and salary for Data Scientist role
 WITH data_jobs AS (
@@ -80,7 +80,7 @@ HAVING
     COUNT(dj.job_id) > 100
 ORDER BY 
     salary DESC
-LIMIT 15;
+LIMIT 10;
 
 -- top skill demand and salary for Data Analyst role
 WITH data_jobs AS (
@@ -108,4 +108,4 @@ HAVING
     COUNT(dj.job_id) > 100
 ORDER BY 
     salary DESC
-LIMIT 15;
+LIMIT 10;
