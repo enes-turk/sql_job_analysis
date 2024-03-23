@@ -68,7 +68,6 @@ Here are breakdowns of the most demanded skills for Data Engineer, Data Scientis
 
 Furthermore, I delved into the correlation between skills and salary levels within the data industry, aiming to uncover which skills are associated with higher salaries and provide actionable insights for professionals seeking to maximize their earning potential.
 
-![salary_skill_img](assets\3_asset.png)
 
 Among the skills analyzed, proficiency in NoSQL database systems such as MongoDB and Cassandra emerged as strongly correlated with higher salary levels, particularly benefiting individuals aspiring to excel as data engineers. Following closely, Kafka, with its capability to facilitate real-time data streaming and processing, significantly contributes to elevating earning potential in roles requiring data ingestion and stream processing.
 
