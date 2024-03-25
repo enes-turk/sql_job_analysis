@@ -59,7 +59,7 @@ Here are breakdowns of the most demanded skills for Data Engineer, Data Scientis
 - **Machine Learning Tools (PyTorch, TensorFlow)**: High emphasis on proficiency in machine learning frameworks like PyTorch and TensorFlow for building and deploying advanced machine learning models.
 - **Data Visualization Tools**: Strong skills in data visualization tools such as Matplotlib, Seaborn, and Plotly are crucial for communicating insights effectively and aiding in decision-making processes.
 
-#### Data Analysts
+#### Data Analysts:
 - **SQL and Excel**: remain fundamental, emphasizing the need for strong foundational skills in data processing and spreadsheet manipulation.
 - **Programming and Visualization Tools**: Skills like Python, Tableau, and Power BI are essential, pointing towards the increasing importance of technical skills in data storytelling and decision support.
 
@@ -70,7 +70,7 @@ Furthermore, I delved into the correlation between skills and salary levels with
 
 ![salary_skill_img](/assets/3_asset.png)
 
-Among the skills analyzed, proficiency in NoSQL database systems such as MongoDB and Cassandra emerged as strongly correlated with higher salary levels, particularly benefiting individuals aspiring to excel as data engineers. Following closely, Kafka, with its capability to facilitate real-time data streaming and processing, significantly contributes to elevating earning potential in roles requiring data ingestion and stream processing.
+Among the skills analyzed in 2023, proficiency in NoSQL database systems such as MongoDB and Cassandra emerged as strongly correlated with higher salary levels, particularly benefiting individuals aspiring to excel as data engineers. Following closely, Kafka, with its capability to facilitate real-time data streaming and processing, significantly contributes to elevating earning potential in roles requiring data ingestion and stream processing.
 
 For professionals targeting data scientist roles, mastery of machine learning tools like PyTorch and TensorFlow proves instrumental in commanding higher salaries. Additionally, expertise in Apache Airflow, a workflow management platform, and Snowflake, a cloud data platform, is highly valued for their roles in orchestrating data pipelines and facilitating scalable data warehousing solutions.
 
@@ -83,6 +83,6 @@ Interestingly, skills traditionally associated with data analyst positions also 
 - **Top Skills in Demand**: SQL, Python, and Cloud Systems (AWS, GCP, Azure) are foundational skills sought after across various data roles. Specialized tools such as Apache Airflow, Databricks, and Spark are highly valued for optimizing data pipelines and enabling advanced analytics.
 
 - **Correlation between Skills and Salary**: Proficiency in NoSQL database systems (MongoDB, Cassandra), Kafka, and machine learning frameworks (PyTorch, TensorFlow) correlates strongly with higher salary levels across data roles. This emphasizes the importance of acquiring specialized skills aligned with industry trends to maximize earning potential.
-## Conclusion
 
+## Conclusion
 This project has not only improved my SQL skills but has also provided invaluable insights into the intricacies of the data analyst job market. By understanding the demand trends, coveted skillsets, and their impact on salary levels, this analysis serves as a valuable resource for individuals seeking to navigate and thrive in the competitive landscape of data analytics careers. Through strategic alignment with industry demands, professionals can enhance their marketability and position themselves for success in the dynamic data job market.
