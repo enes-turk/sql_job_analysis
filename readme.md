@@ -4,9 +4,12 @@
 
 Welcome to a comprehensive exploration of the ever-evolving data job market! This project delves into the intricacies of data-related roles, shedding light on the demand for such positions, the sought-after skills by employers, and the relationship between skillsets and salary levels within the domain of multiple data roles.
 
-## Dataset Information
+This project would'nt be possible without Luke Barousse's lectures. Special thanks to him.
 
-The dataset for this project was compiled from a wide range of sources, primarily online platforms like LinkedIn and other job posting websites, spanning the entirety of 2023 and covering global locations. It includes full-time, part-time, and remote positions, focusing on yearly salary offerings. Notably, the dataset doesn't distinguish between senior, mid-level, and junior roles, providing a holistic view of the data job market. 
+## Dataset Information
+The dataset for this project gathered from https://datanerd.tech/.
+
+Data was compiled from a wide range of sources, primarily online platforms like LinkedIn and other job posting websites, spanning the entirety of 2023 and covering global locations. It includes full-time, part-time, and remote positions, focusing on yearly salary offerings. Notably, the dataset doesn't distinguish between senior, mid-level, and junior roles, providing a holistic view of the data job market. 
 
 Through a detailed analysis, this project aims to uncover key insights into trends and patterns, offering valuable information for anyone curious in the realm of data.
 
