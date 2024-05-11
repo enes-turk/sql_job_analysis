@@ -4,7 +4,7 @@
 
 Welcome to a comprehensive exploration of the ever-evolving data job market! This project delves into the intricacies of data-related roles, shedding light on the demand for such positions, the sought-after skills by employers, and the relationship between skillsets and salary levels within the domain of multiple data roles.
 
-This project would'nt be possible without Luke Barousse's lectures. Special thanks to him.
+This project wouldn't be possible without Luke Barousse's lectures. Special thanks to him.
 
 ## Dataset Information
 The dataset for this project gathered from https://datanerd.tech/.
